@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.top-slide{
+    background-color: #DFCCC2;
+}
+.top{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.menu-list ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu-list ul li{
+    margin-top: 50px;
+    
+}
+
+.menu-list ul li a{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Dongle', sans-serif;
+}
+
+.logo h1{
+    color: #fff;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.appoint ul{
+    list-style: none;
+    margin-top: 50px;
+}
+
+.appoint ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+}
+
+
+.menu-list ul li a:hover{
+    border-bottom: 1px solid #F95454;
+}
+
+.appoint ul li a:hover{
+    border-bottom: 1px solid #F95454;
+}
+
+.img1{
+    position: relative;
+}
+
+.img1 img{
+    
+    width: 500px;
+    height: 550px;
+    border-radius: 30px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.img2{
+    position: absolute;
+    top: 25px;
+    left: 400px;
+    cursor: pointer;
+}
+
+.img2 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+
+.top-mid{
+    position: relative;
+    margin-top: 150px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.mid-text1 h2{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.mid-text1{
+    position: absolute;
+    top: 50px;
+    left: -200px;
+    cursor: pointer;
+}
+
+
+
+.point1 img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.point2{
+    width: 30%;
+}
+
+.point2 h2{
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.point2 p{
+    font-family: 'Quicksand', sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.point3 img{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+}
+
+.top-mid2{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 150px;
+    
+}
+
+
+.mid{
+    background-color: #C5CEBD;
+    height: 1004px;
+    display: flex;
+    align-items: center;
+}
+
+.mid-mid1 img{
+        width: 500px;
+        height: 600px;
+        border-radius: 10px;
+        cursor: pointer;
+}
+
+.mid-mid1{
+    position: relative;
+}
+
+.mid-midt h2{
+    width: 45%;
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.mid-midt{
+    position: absolute;
+    top: 100px;
+    right: -1100px;
+}
+
+.midt2 p{
+    position: relative;
+     width: 40%;  
+     top: 90px; 
+     left: 100px;
+     font-size: 20px;
+     font-family: 'Quicksand', sans-serif;
+     cursor: pointer;
+}
+
+
+.mid-imgt{
+    position: relative;
+    top: 250px;
+    right: 50px;
+}
+
+.mid-imgt img{
+    width: 400px;
+    height: 700px;
+    cursor: pointer;
+}
+
+
+.mid2{
+    background-color: #DFCCC2;
+    height: 1334px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px ;
+}
+
+
+.services h2{
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+
+.ser-img{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ser-img1 img{
+    width: 200px;
+    height: 400px;
+    position: relative;
+    top: 180px;
+}
+
+.ser-img2 {
+    position: relative;
+    top: 200px;
+}
+
+.mid2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ser-img2 img{
+    width: 200px;
+    height: 600px;
+    position: relative;
+    top: 250px;
+}
+
+
+.ser-img3 img{
+    width: 200px;
+    height: 400px;
+    position: relative;
+    top: 250px;
+}
+
+
+.ser-img2 h2{
+    color: #fff;
+    position: relative;
+    top: 210px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ser-img1 h2{
+    color: #fff;
+    position: relative;
+    top: 210px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.ser-img3 h2{
+    color: #fff;
+    position: relative;
+    top: 280px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hh3 h3{
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+   font-size: 20px;
+    left: -80px;
+    width: 30%;
+    top: 150px;
+}
+
+.mid3 img{
+    width: 100%;
+}
+
+.mid3{
+    position: relative;
+}
+
+.mid3t{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    bottom: 250px;
+    right:700px;
+}
+
+
+.mid3t h2{
+    font-size: 45px;
+}
+
+.mid3t p{
+    width: 50%;
+}
+
+.foot{
+    margin: 0;
+    padding: 0;
+    background-color: #DFCCC2;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+}
+
+.foott{
+    display: flex;
+}
+
+
+.first ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    padding: 15px;
+}
+
+
+.second ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    padding: 30px;
+}
+
+.second ul li{
+    position: relative;
+    padding: 15px;
+    top: 50px;
+    left: 50px;
+    font-size: 20px;
+}
+
+.first ul li{
+    font-size: 20px;
+    position: relative;
+    padding: 15px;
+    top: 50px;
+    left: 50px;
+}
+
+
+.foott2{
+    display: flex;
+    flex-direction: column;
+}
+
+.foott2 h2{
+    position: relative;
+    top: 50px;
+    padding: 15px;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+
+.foott2 a{
+    justify-content: end;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    padding: 15px;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.foott2 a:hover{
+    border-bottom: 1px solid #F95454;
+    color: #F95454;
+    
+}
